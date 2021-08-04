@@ -2,39 +2,75 @@ Link to finished codepen: https://codepen.io/Dani07/pen/wvdxLbP?editors=1000
 
 1. What is Semantic HTML? 
     2. What is HTML used for? 
+    It's the proper way to use HTML for application and website.
     It's used to build the structure of our websites.
     3. What is an attribute and where do we put it? 
+    It's additional information about an element and it goes after the element start tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
+    It's used for the main heading and we should use it once per page.
     5. Name two tags that have required attributes
+    An image and source attribute.
     6. What do we put in the head of our HTML document? 
+    We use a header tag.
     7. What is an id? 
+    It' an unique identifier that can only be used once.
     8. What elements can I add an id to? 
+    An id can be added to any element as long as it's used only once.
     9. How many times can I use the same id on a page? 
+    It can be used only once.
     10. What is a class? 
+    It's an attribute.
     11. What elements can I add a class to? 
+    It can be added to any element.
     12. How many times can I use the same class on a page? 
+    It can be used more than once.
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
+    We can use and href attribute.
+    14. What is the alt attribute in the image tag used for?
+    It's used to included a description of the image.
     15. How do I reference an id?
+    We use a # followed by id.
     16. What is the difference between a section and a div
+    A section means that the contents are groups and divs are not.
     17. What is CSS used for? 
+    It's used to style a page.
     18. How to we select an element? Example - every h2 on the page
+    We use selectors with element name. Example: h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class can be used more than once and an id can only be used once. We used them when styling that specific class or id.
     20. How do we select classes in CSS?
+    We use a (.) followed by class name.
     21. How do we select a p element with a single class of “human””?
+    We would use .human {}
     22. What is a parent child selector? When would this be useful? 
+    it selects all element with specified element. It would be helpful when making the same changes to that element.
     23. How do you select all links within a div with the class of sidebar?
+    You would use .sidebar {}
     24. What is a pseudo selector?
+    It's a keyword that's added to a selector.
     25. What do we use the change the spacing between lines?
+    We can use line-height.
     26. What do we use to change the spacing between letters?
+    We can use letter-spacing.
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    We can use text transform properties.
     28. How do I add a 1px border around my div that is dotted and black?
+    We can use boder: 1px dotted black;
     29. How do I select everything on the page? 
+    Using an universal selector.
     30. How do I write a comment in CSS?
+    We use /*comment here*/
     31. How do I find out what file I am in, when I am using the command line? 
+    We use pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    We use ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    We can use rm "file name" and we have to be careful than we don't delete important work.
     34. Why should I use version control? 
+    It helps keep track of changes being made.
     35. How often should I commit to github?
+    Every 20 minutes is preferred.
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name
     37. Walk me through Lambda's git flow.
+    Fork, clone using cd to the directory you are going to clone your forked repo, cd repo-name, bran name for repo, code . to open in vs code, save, git add . to add changes, git commit -m "message goes here", git push -u origin branch-name
